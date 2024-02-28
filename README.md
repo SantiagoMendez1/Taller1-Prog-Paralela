@@ -24,7 +24,7 @@ gcc -O1 jacobi.c -o jacobiejecutable01
 gcc -O2 jacobi.c -o jacobiejecutable02
 gcc -O3 jacobi.c -o jacobiejecutable03
 
-	#### Análisis de ejecución
+#### Análisis de ejecución
 	
 | optimización | Tiempo ejecucion Guane (s) |
 |--------------|----------------------------------------|

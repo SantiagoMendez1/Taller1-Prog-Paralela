@@ -16,13 +16,13 @@ gcc jacobi.c -o jacobi
 #### Resultado de la ejecución
 
 
-### 2. Uso de las banderas -o1 -o2 -o3
+### 2. Uso de las banderas -O1 -O2 -O3
 
 Para el desarrollo de este segundo punto, se hizo uso de las banderas de optimización -o1 -o2 -o3 junto con el comando de compilación empleado en el segundo punto, los comando empleados fueron:
 
-gcc -O1 jacobi.c -o jacobiejecutable01/n
-gcc -O2 jacobi.c -o jacobiejecutable02/n
-gcc -O3 jacobi.c -o jacobiejecutable03/n
+gcc -O1 jacobi.c -o jacobiejecutable01
+gcc -O2 jacobi.c -o jacobiejecutable02
+gcc -O3 jacobi.c -o jacobiejecutable03
 
 #### Análisis de ejecución
 	
@@ -31,3 +31,28 @@ gcc -O3 jacobi.c -o jacobiejecutable03/n
 | O1      	   | 1,000    	                            |
 | O2      	   | 10,000   	                            | 
 | O3   	       | 100,000  	                            | 
+
+#### Análisis de compilacion
+
+### 3. Uso de las banderas -O -O0 -Og Oz
+
+
+
+
+
+### 4. Analisis de codigo de internet
+
+para el desarrollo del cuarto puento se implemento el codigo del metodo de biseccion el cual fue tomado del siguiente enlace: https://www.javatpoint.com/bisection-method-in-c. seguidamente, se desarrollo lo evidenciado en los puntos anteriores
+pero ahora con este codigo el cual hace uso de punteros con el fin de analizar su rendimiento.
+
+#### Análisis de ejecución
+
+| optimización | Tiempo ejecucion Guane (s) |
+|--------------|----------------------------------------|
+| O1      	   | 1,000    	                            |
+| O2      	   | 10,000   	                            | 
+| O3   	       | 100,000  	                            | 
+
+
+
+

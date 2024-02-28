@@ -73,5 +73,6 @@ Los tiempos de ejecución del usuario y del sistema son bajos en ambos casos, pe
 
 El primer bloque (sin optimizar) contiene más operaciones de gestión de memoria explícitas, como mover datos entre registros y ubicaciones de memoria (mov).
 Los otros bloques (optimizados) parecen estar más simplificados, con menos operaciones de gestión de memoria explícitas. Es posible que esté utilizando optimizaciones del compilador para reducir operaciones de memoria innecesarias.
-Los bloques del código optimizado son más compactos, esto mejora la legibilidad 
+Los bloques del código optimizado son más compactos, esto mejora la legibilidad .
+
 Con el uso de las banderas -O -O0 -Og -Oz, la que tuvo mayor relevancia fue la bandera -Oz al reducir los bloques de código significativamente.

@@ -28,7 +28,7 @@ gcc -O3 jacobi.c -o jacobiejecutable03
     
 | optimización | Tiempo ejecucion Guane user (s) |  Tiempo ejecucion Guane sys (s) |
 
-|--------------|----------------------------------------|
+|--------------|----------------------------------------|-----------------------|
 | O1 			| 0m0.000s   	         | 0m0.001s   	         |
 | O2 			| 0m0.000s  	         |0m0.001s   	         |
 | O3  	    	| 0m0.000s 	                     |0m0.002s   	         |
@@ -55,14 +55,14 @@ En este caso se usaron las banderas mencionadas. La bandera -O aplica una optimi
 
 ### 4. Analisis de codigo de internet
 
-para el desarrollo del cuarto punto se implemento el codigo del metodo de biseccion el cual fue tomado del siguiente [enlace] (https://www.javatpoint.com/bisection-method-in-c. seguidamente). Se desarrolló lo evidenciado en los puntos anteriores
+para el desarrollo del cuarto punto se implemento el codigo del metodo de biseccion el cual fue tomado del siguiente [enlace] (https://www.javatpoint.com/bisection-method-in-c). Seguidamente se desarrolló lo evidenciado en los puntos anteriores
 pero ahora con este código el cual hace uso de punteros con el fin de analizar su rendimiento.
 
 #### Análisis de ejecución
 
 | optimización | Tiempo ejecucion Guane user (s) |  Tiempo ejecucion Guane sys (s) |
 
-|--------------|----------------------------------------|
+|--------------|----------------------------------------|-----------------------|
 | O1 			| 0m0.001s   	         | 0m0.000s   	         |
 | O2 			|0m0.001s  	         |0m0.000s   	         |
 | O3  	    	| 0m0.001s  	                     | 0m0.001s   	         |

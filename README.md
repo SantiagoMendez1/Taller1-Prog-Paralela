@@ -1,4 +1,5 @@
 # Taller inicial de compilación, ejecución y uso compartido de optimizadores
+## Kevin Santiago Gutierrez Mendez - 2172020 y Carlos Daniel Sanjuan Argote - 2171998
 
 En el presente documento de presenta el desarrollo de los incisos del taller planteado
 

@@ -55,7 +55,7 @@ En este caso se usaron las banderas mencionadas. La bandera -O aplica una optimi
 
 ### 4. Analisis de codigo de internet
 
-para el desarrollo del cuarto punto se implemento el codigo del metodo de biseccion el cual fue tomado del siguiente [enlace] (https://www.javatpoint.com/bisection-method-in-c). Seguidamente se desarrolló lo evidenciado en los puntos anteriores
+para el desarrollo del cuarto punto se implemento el codigo del metodo de biseccion el cual fue tomado del siguiente [enlace](https://www.javatpoint.com/bisection-method-in-c). Seguidamente se desarrolló lo evidenciado en los puntos anteriores
 pero ahora con este código el cual hace uso de punteros con el fin de analizar su rendimiento.
 
 #### Análisis de ejecución

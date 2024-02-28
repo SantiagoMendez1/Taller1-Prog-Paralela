@@ -27,12 +27,12 @@ gcc -O3 jacobi.c -o jacobiejecutable03
 #### Análisis de ejecución(tiempo)
     
 | optimización | Tiempo ejecucion Guane user (s) |  Tiempo ejecucion Guane sys (s) |
-
 |--------------|---------------------------------|---------------------------------|
 | O1 		   | 0m0.000s   	                 | 0m0.001s   	                   |
 | O2 		   | 0m0.000s  	                     |0m0.001s   	                   |
 | O3  	       | 0m0.000s 	                     |0m0.002s   	                   |
 | sin opt. 	   | 0m0.001s 	                     |0m0.001s   	                   |
+
 
 Conforme aumenta el nivel de optimización (de -O1 a -O2 a -O3), generalmente se espera que el tiempo de ejecución disminuya. Esto se debe a que las optimizaciones más agresivas deberían producir un código más eficiente y, por lo tanto, reducir el tiempo de ejecución.
 Esta tendencia es visible en tus resultados: el tiempo de ejecución disminuye de -O0 a -O1 a -O2. Sin embargo, la ejecución con -O3 parece haber resultado en un tiempo de ejecución significativamente más largo. Esto pudiera indicar que no siempre las optimizacion mas agresivas conducen a un mejor rendimiento.

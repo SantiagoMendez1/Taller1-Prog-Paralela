@@ -42,7 +42,7 @@ gcc -O3 jacobi.c -o jacobiejecutable03
 
 ### 4. Analisis de codigo de internet
 
-para el desarrollo del cuarto puento se implemento el codigo del metodo de biseccion el cual fue tomado del siguiente enlace: https://www.javatpoint.com/bisection-method-in-c. seguidamente, se desarrollo lo evidenciado en los puntos anteriores
+para el desarrollo del cuarto puento se implemento el codigo del metodo de biseccion el cual fue tomado del siguiente [enlace] https://www.javatpoint.com/bisection-method-in-c. seguidamente, se desarrollo lo evidenciado en los puntos anteriores
 pero ahora con este codigo el cual hace uso de punteros con el fin de analizar su rendimiento.
 
 #### Análisis de ejecución

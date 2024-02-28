@@ -61,7 +61,6 @@ pero ahora con este código el cual hace uso de punteros con el fin de analizar 
 #### Análisis de ejecución
 
 | optimización | Tiempo ejecucion Guane user (s) |  Tiempo ejecucion Guane sys (s) |
-
 |--------------|----------------------------------------|-----------------------|
 | O1 			| 0m0.001s   	         | 0m0.000s   	         |
 | O2 			|0m0.001s  	         |0m0.000s   	         |

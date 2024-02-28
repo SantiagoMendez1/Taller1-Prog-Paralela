@@ -20,9 +20,10 @@ gcc jacobi.c -o jacobi
 
 Para el desarrollo de este segundo punto, se hizo uso de las banderas de optimización -o1 -o2 -o3 junto con el comando de compilación empleado en el segundo punto, los comando empleados fueron:
 
-gcc -O1 jacobi.c -o jacobiejecutable01
-gcc -O2 jacobi.c -o jacobiejecutable02
-gcc -O3 jacobi.c -o jacobiejecutable03
+gcc -O1 jacobi.c -o jacobiejecutable01  
+gcc -O2 jacobi.c -o jacobiejecutable02  
+gcc -O3 jacobi.c -o jacobiejecutable03  
+
 
 #### Análisis de ejecución(tiempo)
     
